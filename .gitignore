@@ -1,0 +1,7 @@
+.env
+Cases/
+logs/
+data/
+*.lock
+__pycache__/
+*.tmp

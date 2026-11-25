@@ -1,0 +1,4 @@
+requests
+pyzipper
+pypdf
+openai
