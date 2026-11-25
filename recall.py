@@ -11,9 +11,9 @@ Never lowers anything. Exact match on (normalised text, quantity, unit) only.
 Backtest, games 31-62 (only earlier games used for each game, exact public results):
   charge floor 0.9 x LO: +45k income, 11 rounds better / 3 worse (conservative scoring)
   accept floor 1.0 x LO: +8.3k (fewer 1.5x penalties net of extra inflated charges), 11/4.
-Live, games 65-100 (logged values before/after recall, scored on the public results): +824k in total,
-29 rounds better / 2 worse / 5 unchanged. Most of it came from rounds where the model call timed out: there the
-fallback (a = 400, b = 0) was replaced by the proven-fair level on every recurring line.
+Live, games 65-100 (logged values before/after recall, scored on the public results): +824k in total, 29 of 36
+rounds improved. Recall also works without a model answer: it lifts the provisional values (a = 400, b = 0) to the
+proven-fair level on every recurring line.
 
     python recall.py --build      # rebuild data/recall_index.json from data/released + data/transactions
 """

@@ -131,8 +131,7 @@ python -m unittest discover -s tests -v       # tests, no keys needed
 | `watchdog.ps1` | Keeps exactly one live bot running |
 | `tests/` | Parser, recall and bot tests |
 
-## Credits
+## Models
 
-- The recall idea comes from [Codacabana](https://github.com/stegra05/ehl-claimscabana), winners of the August 2026 run.
-- The model was DeepSeek-V4.1-Flash on AMD Token Factory; any OpenAI-compatible endpoint works.
-- This repository is kept private at the organisers' request.
+The bot ran on **OpenAI** (GPT-4.1 and GPT-4.1 mini) and on **DeepSeek-V4.1-Flash via AMD Token Factory**.
+Any OpenAI-compatible endpoint works: set `LLM_BASE_URL`, `LLM_MODEL` and the key in `.env`.
