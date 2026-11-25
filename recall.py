@@ -1,4 +1,4 @@
-"""Recall: earlier settled verdicts on the SAME invoice line (idea from the August winner Codacabana).
+"""Recall: earlier settled verdicts on the SAME invoice line.
 
 Many invoice lines recur across cases ("Service technician hours 8 hrs", "Connection hose 1 pcs").
 The public transaction log of a finished game brackets its fair value t per line:

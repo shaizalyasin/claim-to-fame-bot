@@ -110,7 +110,7 @@ PRICE_BLEND_W = float(os.environ.get("PRICE_BLEND_W", "0.65"))
 # give a band the DISAGREEMENT measures. Game 9 priced a bare "TV set" at 1500 +/-20% when the
 # true t was ~566 -- the error was overconfidence, not a bad centre. Set 1 for a single call.
 # Assessors run in parallel, so wall-clock cost is about one call.
-# Recall (recall.py, idea from the August winner Codacabana): on an invoice line that appeared in an earlier,
+# Recall (recall.py): on an invoice line that appeared in an earlier,
 # settled game, charge at least RECALL_A_FRAC (0.9) x and accept at least up to RECALL_B_FRAC (1.0) x the
 # largest charge the public log already proved fair. Never lowers a value. Team analysis games 31-62, each
 # game using only earlier games: charge floor +45k (11 rounds better / 3 worse), accept floor +8.3k (11/4).
